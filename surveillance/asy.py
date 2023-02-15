@@ -1,3 +1,9 @@
+"""
+Base modules
+cron: 1 1 1 1 1
+new Env('tg基础模块')
+"""
+
 import yaml
 
 

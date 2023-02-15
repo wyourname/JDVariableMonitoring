@@ -2,6 +2,7 @@
 Get the environment variable from the warehouse.
 cron: 1 1 1 1 *
 author: xxxx
+new Env('Tg变量生成')
 """
 import os
 import asyncio

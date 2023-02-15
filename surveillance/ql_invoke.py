@@ -1,3 +1,8 @@
+"""
+这是调用青龙的模块
+cron: 1 1 1 1 1
+new Env('tg-青龙对接模块')
+"""
 import asyncio
 import re
 import aiohttp
@@ -157,7 +162,7 @@ class Invoke:
         result = await self.requests_method('get', url=log_url, header=header)
         print(result)
 
-
-if __name__ == '__main__':
-    invoke = Invoke()
-    asyncio.run(invoke.task_log(418))
+#
+# if __name__ == '__main__':
+#     invoke = Invoke()
+#     asyncio.run(invoke.task_log(418))

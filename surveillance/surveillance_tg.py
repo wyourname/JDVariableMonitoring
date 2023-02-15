@@ -1,3 +1,9 @@
+"""
+This is the main monitoring program
+cron: 1 1 1 1 1
+new Env('tg监控程序')
+"""
+
 import datetime
 import re
 from telethon import events, TelegramClient
