@@ -1,0 +1,537 @@
+KingRan_KR_main:
+- jd_txzj_lottery.js:
+  - jd_lottery_activityUrl
+- jd_disable.py:
+  - IPPORT
+- jd_completeInfoActivity.js:
+  - jd_completeInfoActivity_activityId
+  - jd_completeInfoActivity_activityUrl
+  - jd_completeInfoActivity_venderId
+  - JD_CJ_OPEN
+- jd_wskey.py:
+  - QL_PORT
+  - QL_PORT
+- jd_daily.js:
+  - jd_daily_activityId
+  - jd_daily_blacklist
+  - JD_LZ_OPEN
+- jd_zjb.js:
+  - InviterPin
+- jd_sevenDay.js:
+  - LZKJ_SEVENDAY
+  - LZKJ_SIGN
+  - CJHY_SEVENDAY
+  - CJHY_SIGN
+  - jd_sevenDay_blacklist
+- jd_txzj_collect_item.js:
+  - jd_collect_item_activityUrl
+- jd_teamFLP.js:
+  - jd_teamFLP_activityId
+- jd_mhtask.js:
+  - jd_mhurlList
+- jd_cjdaily.js:
+  - jd_cjdaily_activityId
+  - jd_cjdaily_blacklist
+  - JD_CJ_OPEN
+- jd_team_exchange.js:
+  - jd_teamAJ
+  - jd_teamFLP
+- jd_wxUnPackingActivity.js:
+  - jd_wxUnPackingActivity_activityId
+  - jd_wxUnPackingActivity_blacklist
+  - JD_LZ_OPEN
+- jd_prodev.py:
+  - yhypin
+  - yhyauthorCode
+  - yhypin
+  - yhyauthorCode
+- jd_lzkj_loreal_followShop.js:
+  - jd_lzkj_loreal_followShop_url
+- jd_wdzfd.js:
+  - jd_wdz_pin
+  - jd_wdz_mixnum
+  - jd_wdz_maxnum
+  - jd_wdzfd_task
+  - jd_wdzfd_activityId
+  - jd_wdzfd_activityUrl
+- jd_wxFansInterActionActivity.js:
+  - jd_wxFansInterActionActivity_activityId
+  - JD_LZ_OPEN
+  - jd_wxFansInterActionActivity_blacklist
+- jd_wsdlb.js:
+  - dlbtz
+  - dlbtz
+- jd_categoryUnion.js:
+  - jd_categoryUnion_activityId
+  - jd_categoryUnion_blacklist
+  - JD_LZ_OPEN
+- jd_wxMcLevelAndBirthGifts.js:
+  - jd_wxMcLevelAndBirthGifts_activityId
+  - jd_wxMcLevelAndBirthGifts_activityUrl
+  - JD_CJ_OPEN
+- jd_opencardDPLHTY.js:
+  - DPLHTY
+  - DPLHTY
+  - opencard_toShop
+  - opencard_draw
+  - opencard_shop
+  - helpnum
+  - krWait
+  - DPLHTY_blacklist
+  - retrynum
+- jd_wdz.js:
+  - jd_wdz_pin
+  - jd_wdz_mixnum
+  - jd_wdz_maxnum
+  - jd_wdz_activityId
+  - jd_wdz_activityUrl
+- jd_txzj_cart_item.js:
+  - jd_cart_item_activityUrl
+- jd_lottery.js:
+  - JD_Lottery
+- jd_joypark_run.ts:
+  - JD_JOY_PARK_RUN_ASSETS
+- jd_fruit_help.js:
+  - DO_TEN_WATER_AGAIN
+- jd_try.js:
+  - JD_TRY
+  - JD_TRY_PASSZC
+  - JD_TRY_MAXLENGTH
+  - JD_TRY_PRICE
+  - JD_TRY_APPLYINTERVAL
+  - JD_TRY_APPLYNUMFILTER
+  - JD_TRY_MINSUPPLYNUM
+  - JD_TRY_SENDNUM
+  - JD_TRY_UNIFIED
+  - JD_TRY_NUM
+  - JD_TRY
+- jd_fcwb.py:
+  - )?'+env+r' ?
+- jd_fruit_task.js:
+  - DO_TEN_WATER_AGAIN
+- jd_fcwb_mfhelp.js:
+  - krWait
+  - fcwbhelpnum
+- jd_follow.js:
+  - M_FOLLOW_SHOP_ARGV
+- jd_car_play_exchange.js:
+  - jd_car_play_exchangeid
+- jd_joypark_task.js:
+  - HELP_JOYPARK
+- jd_wxBuildActivity.js:
+  - jd_wxBuildActivity_activityId
+  - JD_LZ_OPEN
+  - jd_wxBuildActivity_blacklist
+- jd_wxCollectCard.js:
+  - jd_wxCollectCard_activityId
+  - JD_LZ_OPEN
+  - jd_wxCollectCard_blacklist
+- jd_wxCartKoi.js:
+  - jd_wxCartKoi_activityId
+  - JD_LZ_OPEN
+  - jd_wxCartKoi_blacklist
+- jd_categoryUnion_draw.js:
+  - jd_categoryUnion_activityId
+  - jd_categoryUnion_blacklist
+  - JD_LZ_OPEN
+- jd_kanjia.js:
+  - actId
+  - packetId
+  - actId
+  - packetId
+- jd_txzj_collect_shop.js:
+  - jd_collect_shop_activityUrl
+- jd_shopDraw.js:
+  - jd_shopDraw_activityUrl
+- jd_joyjd_open.js:
+  - comm_activityIDList
+  - comm_endTimeList
+  - comm_tasknameList
+- jd_dpqd.js:
+  - DPQDTK
+  - DPQDTK
+- sendNotify.js:
+  - BEANCHANGE_PERSENT
+  - NOTIFY_SKIP_LIST
+  - NOTIFY_CKTASK
+  - NOTIFY_SKIP_TEXT
+  - NOTIFY_NOCKFALSE
+  - CKNOWARNERROR
+  - NOTIFY_NOLOGINSUCCESS
+  - NOTIFY_AUTHOR
+  - NOTIFY_AUTHOR_BLANK
+  - NOTIFY_AUTOCHECKCK
+shufflewzc_faker3_main:
+- jd_phoneDiscount.py:
+  - baseInfo
+  - baseInfo
+- jd_lzkj_interactsaas_yqhyrh.js:
+  - jd_lzkj_interactsaas_yqhyrh_activityId
+- jd_txzj_sign_in.js:
+  - jd_txzj_sign_in_id
+  - jd_txzj_sign_in_num
+- jd_lzkj_interact_yqrhyl.js:
+  - jd_lzkj_interact_yqrhyl_activityId
+- jd_drawCenter.js:
+  - jd_drawCenter_activityId
+- jd_wxCompleteInfo.py:
+  - jd_wxCompleteInfoId
+- jx_factory_automation.js:
+  - COMMODITY_NAME
+  - COMMODITY_NAME
+- jd_txzj_lottery.js:
+  - jd_txzj_lottery_id
+  - jd_txzj_lottery_num
+- jd_zjd_new.js:
+  - DY_ZJDTOP
+- jd_lzkj_wxShopFollowActivity.js:
+  - jd_lzkj_wxShopFollowActivity_activityId
+  - jd_lzkj_wxShopFollowActivity_num
+  - jd_lzkj_wxShopFollowActivity_openCard
+- jd_opencard_xb.js:
+  - OPENCARD_DRAW_NUM
+- jd_moxigame.js:
+  - XXLDOUBLE
+- jd_cjhy_signActivity.js:
+  - 'jd_cjhy_signActivity_ids '
+  - jd_cjhy_signActivity_num
+  - jd_cjhy_signActivity_openCard
+- jd_lzkjdz_wxTeam.js:
+  - jd_lzkjdz_wxTeam_Id
+- jd_wxSecond.js:
+  - jd_wxSecond_activityId
+- jd_share2.js:
+  - jd_fxyl_activityId
+  - OWN_COOKIE_NUM
+  - jd_fxyl_activityId
+- jd_lzkj_wxShopGift.js:
+  - jd_lzkj_wxShopGift_ids
+  - jd_lzkj_wxShopGift_num
+  - jd_lzkj_wxShopGift_openCard
+- jd_lzaddCart.js:
+  - jd_lzaddCart_activityId
+  - lzaddCart_pinBlackLists
+  - JD_CART
+- jd_cjhy_wxMcLevelAndBirthGifts.js:
+  - 'jd_cjhy_wxMcLevelAndBirthGifts_ids '
+  - jd_cjhy_wxMcLevelAndBirthGifts_num
+  - jd_cjhy_wxMcLevelAndBirthGifts_openCard
+- jd_mpdz_car.js:
+  - car_addsku
+- jd_wxShopFollowActivity.js:
+  - jd_wxShopFollowActivity_activityId
+  - jd_wxShopFollowActivity_num
+  - jd_wxShopFollowActivity_openCard
+- jd_mofang_ex.js:
+  - MOFANG_NO_PIN
+- jd_scripts_check_dependence.py:
+  - ec_fix_dep
+  - ec_ref_dep
+  - ec_fix_dep
+  - ec_ref_dep
+  - ec_fix_dep
+  - ec_re_dep
+- jd_work_price.js:
+  - ${$.runfile}
+- jd_ql_log_scan.py:
+  - QL_LOG_PATH
+  - QL_LOG_BLACK_DIR
+  - QL_LOG_BLACK_FILE
+  - QL_LOG_SCAN_DEEPIN
+  - QL_LOG_AUTO_INSTALL_DEPEND
+  - QL_LOG_NPM
+- jd_wdz.py:
+  - jd_wdz_activityId
+- jd_wskey.py:
+  - QL_PORT
+  - QL_PORT
+- jd_lzkj_interactsaas_gzyl.js:
+  - jd_lzkj_interactsaas_gzyl_activityId
+  - jd_lzkj_interactsaas_gzyl_num
+- magic.py:
+  - '{key}'
+  - (.*)
+- jd_lzkj_sevenDay.js:
+  - 'jd_lzkj_sevenDay_ids '
+  - jd_lzkj_sevenDay_num
+  - jd_lzkj_sevenDay_openCard
+- jd_cjhy_sevenDay.js:
+  - 'jd_cjhy_sevenDay_ids '
+  - jd_cjhy_sevenDay_num
+  - jd_cjhy_sevenDay_openCard
+- jd_txgzyl.js:
+  - PKC_TXGZYL
+- jd_shopGifts.js:
+  - jd_shopGifts_ids
+  - jd_shopGifts_num
+- jd_wxShareActivity.js:
+  - jd_wxShareActivity_activityId
+  - jd_wxShareActivity_num
+- jd_lzkj_interactsaas_jgyl.js:
+  - jd_lzkj_interactsaas_jgyl_activityId
+  - jd_lzkj_interactsaas_jgyl_num
+- jx_aid_cashback.js:
+  - ${$.runfile}
+- jd_sevenDay.js:
+  - LZKJ_SEVENDAY
+  - LZKJ_SIGN
+  - CJHY_SEVENDAY
+  - CJHY_SIGN
+  - jd_sevenDay_blacklist
+- jd_txzj_collect_item.js:
+  - jd_txzj_collect_item_id
+  - jd_txzj_collect_item_num
+- jd_washbeans.js:
+  - DY_WASHBEANS
+- jd_mpdz_carv.js:
+  - car_addsku
+- jd_identical.py:
+  - IPPORT
+- jd_mhtask.js:
+  - jd_mhurlList
+- jd_lzkj_wxCollectionActivity.js:
+  - jd_lzkj_wxCollectionActivityId
+  - jd_lzkj_wxCollectionActivity_num
+  - jd_lzkj_wxCollectionActivity_openCard
+- jd_wxCollectionActivity.py:
+  - jd_wxCollectionActivityUrl
+  - jd_wxCollectionActivityRunNums
+- jd_cjhy_wxShopFollowActivity.js:
+  - jd_cjhy_wxShopFollowActivity_activityId
+  - jd_cjhy_wxShopFollowActivity_num
+  - jd_cjhy_wxShopFollowActivity_openCard
+- jd_cjhy_wxCollectionActivity.js:
+  - jd_cjhy_wxCollectionActivityId
+  - jd_cjhy_wxCollectionActivity_num
+  - jd_cjhy_wxCollectionActivity_openCard
+- jd_team60.js:
+  - jd_wdz_activityId
+  - jd_wdz_activityUrl
+  - jd_wdz_pin
+  - jd_wdz_num
+- jd_cjhy_daily.js:
+  - jd_cjhy_daily_ids
+  - jd_cjhy_daily_num
+  - jd_cjhy_daily_openCard
+- jd_joinCommon_opencard.py:
+  - jd_joinCommonId
+- jd_opencard_pl.js:
+  - jd_opencard_categoryUnion_draw
+- jd_identical211.py:
+  - IPPORT
+- jd_wxUnPackingActivity.js:
+  - jd_wxUnPackingActivity_activityId
+- jd_joyopen.js:
+  - JD_JOYOPEN
+- jd_lzkj_signActivity2.js:
+  - 'jd_lzkj_signActivity2_ids '
+  - jd_lzkj_signActivity2_num
+  - jd_lzkj_signActivity2_openCard
+- jd_wdzfd.js:
+  - jd_wdz_pin
+  - jd_wdz_mixnum
+  - jd_wdz_maxnum
+  - jd_wdzfd_task
+  - jd_wdzfd_activityId
+  - jd_wdzfd_activityUrl
+- jd_wxFansInterActionActivity.js:
+  - jd_wxFansInterActionActivity_activityId
+  - jd_wxFansInterActionActivity_num
+- jd_fcwb_nolan.js:
+  - fcwb_nolan_token
+  - fcwb_helpnum
+  - fcwb_help_wait
+  - FCWB_INVITER
+  - FCWB_INVITER_CODE
+- jd_cjhy_wxGameActivity.js:
+  - jd_cjhy_wxGameActivity_activityId
+  - jd_cjhy_wxGameActivity_num
+  - jd_cjhy_wxGameActivity_openCard
+- jd_cjhy_completeInfoActivity.js:
+  - jd_cjhy_completeInfoActivity_Ids
+  - jd_cjhy_completeInfoActivity_num
+  - jd_cjhy_completeInfoActivity_openCard
+- jd_lzkj_wxDrawActivity.js:
+  - jd_lzkj_wxDrawActivity_Id
+  - jd_lzkj_wxDrawActivity_num
+  - jd_lzkj_wxDrawActivity_openCard
+- jd_wsdlb.js:
+  - dlbtz
+  - dlbtz
+- jd_lotterys.js:
+  - JD_Lottery
+- jd_health_plant.py:
+  - plant_cookie
+  - plant_cookie
+  - 'charge_targe_id '
+  - 'charge_targe_id '
+  - 'charge_targe_id '
+  - 'charge_targe_id '
+  - 'charge_targe_id '
+  - plant_cookie
+  - 'charge_targe_id '
+- jd_cjhydz_wxTeam.js:
+  - jd_cjhydz_wxTeam_Id
+- jd_inviteFriendsGift.py:
+  - jd_inv_authorCode
+- jd_opencardDPLHTY.js:
+  - DPLHTY
+  - DPLHTY_DRAWNUM
+- jd_dpcj.py:
+  - DPCJID
+- jd_shop_draw.js:
+  - jd_shop_draw_ids
+  - jd_shop_draw_num
+- jd_cjhy_wxShopGift.js:
+  - jd_cjhy_wxShopGift_ids
+  - jd_cjhy_wxShopGift_num
+  - jd_cjhy_wxShopGift_openCard
+- jd_beauty_plant.py:
+  - plant_cookie
+  - plant_cookie
+  - choose_plant_id
+  - 'planted_id '
+  - 'planted_id '
+  - choose_plant_id
+  - 'planted_id '
+  - 'planted_id '
+  - 'planted_id '
+  - plant_cookie
+  - 'planted_id '
+- jd_cjhy_wxDrawActivity.js:
+  - jd_cjhy_wxDrawActivity_Id
+  - jd_cjhy_wxDrawActivity_num
+  - jd_cjhy_wxDrawActivity_openCard
+- jd_whx_drawShopGift.js:
+  - whx_drawShopGift
+- jd_lzkj_interactsaas_gzspyl.js:
+  - jd_lzkj_interactsaas_gzspyl_activityId
+  - jd_lzkj_interactsaas_gzspyl_num
+- jd_txzj_cart_item.js:
+  - jd_txzj_cart_item_id
+  - jd_txzj_cart_item_num
+- jd_wxgame.js:
+  - WXGAME_ACT_ID
+- jd_wxShopGift.py:
+  - jd_wxShopGiftId
+- jd_lottery.js:
+  - JD_Lottery
+- jd_fruit_help.js:
+  - DO_TEN_WATER_AGAIN
+- jd_shopLeague_opencard.py:
+  - jd_shopLeagueId
+- jd_try.js:
+  - JD_TRY
+  - JD_TRY_PASSZC
+  - JD_TRY_MAXLENGTH
+  - JD_TRY_PRICE
+  - JD_TRY_APPLYINTERVAL
+  - JD_TRY_APPLYNUMFILTER
+  - JD_TRY_MINSUPPLYNUM
+  - JD_TRY_SENDNUM
+  - JD_TRY_UNIFIED
+  - JD_TRY_NUM
+  - JD_TRY
+- wskey.py:
+  - QL_PORT
+  - QL_PORT
+- jd_openLuckBag.js:
+  - jd_openLuckBag_Id
+- jd_lzkj_wxGameActivity.js:
+  - jd_lzkj_wxGameActivity_activityId
+  - jd_lzkj_wxGameActivity_num
+  - jd_lzkj_wxGameActivity_openCard
+- jd_lzkj_wxBuildActivity.js:
+  - jd_lzkj_wxBuildActivity_activityId
+  - jd_lzkj_wxBuildActivity_num
+  - jd_lzkj_wxBuildActivity_openCard
+- jd_fcwb.py:
+  - )?'+env+r' ?
+- jd_share.js:
+  - jd_fxyl_activityId
+  - OWN_COOKIE_NUM
+  - HELP_COOKIE_NUM
+- jd_card_force.js:
+  - VENDER_ID
+  - OPENCARD_BEAN
+- jd_txgzyl1.js:
+  - PKC_TXGZYL
+  - PKC_TXGZYL
+  - PKC_TXGZYL
+  - PKC_TXGZYL
+- jd_bigwinner.py:
+  - dyjpin
+- jd_fruit_task.js:
+  - DO_TEN_WATER_AGAIN
+- jd_follow.js:
+  - M_FOLLOW_SHOP_ARGV
+- jd_lzkj_daily.js:
+  - jd_lzkj_daily_ids
+  - jd_lzkj_daily_num
+  - jd_lzkj_daily_openCard
+- jd_cjhy_wxKnowledgeActivity.js:
+  - jd_cjhy_wxKnowledgeActivity_activityId
+  - jd_cjhy_wxKnowledgeActivity_num
+  - jd_cjhy_wxKnowledgeActivity_openCard
+- jd_car_play_exchange.js:
+  - jd_car_play_exchangeid
+- jd_joypark_task.js:
+  - HELP_JOYPARK
+- jd_jinggengInvite.py:
+  - redis_url
+  - redis_port
+  - redis_pwd
+  - jinggengInviteJoin
+- jd_pl.js:
+  - jd_opencard_categoryUnion_draw
+- jd_wxCollectCard.js:
+  - jd_wxCollectCard_activityId
+  - JD_LZ_OPEN
+  - jd_wxCollectCard_blacklist
+- jd_wxCartKoi.js:
+  - jd_wxCartKoi_activityId
+- jd_try_2.0.js:
+  - JD_TRY_PASSZC
+  - JD_TRY_MAXLENGTH
+  - JD_TRY_PRICE
+  - JD_TRY_APPLYINTERVAL
+  - JD_TRY_APPLYNUMFILTER
+  - JD_TRY_MINSUPPLYNUM
+  - JD_TRY_SENDNUM
+  - JD_TRY_UNIFIED
+  - JD_TRY_NUM
+  - JD_TRY
+- jd_opencardLH.js:
+  - DPLHTY
+  - DPLHTY_DRAWNUM
+  - DPLHTY_YOURCODE
+- jd_cjhydz_microDz.js:
+  - jd_cjhydz_microDz_Id
+  - jd_cjhydz_microDz_maxNum
+- jd_wxBirthGifts.py:
+  - jd_wxBirthGiftsId
+- jd_joy_park_run.js:
+  - JD_JOY_PARK_RUN_ASSETS
+- jd_wxShopFollow.py:
+  - jd_wxShopFollowId
+  - jd_wxShopFollowRunNums
+  - jd_wxShopFollowRunNums
+- jd_identicaln214.py:
+  - IPPORT
+- jd_joyjd_open.js:
+  - comm_activityIDList
+  - comm_endTimeList
+  - comm_tasknameList
+- jd_dpqd.js:
+  - dpqd_token
+- jd_shopCollectGift.py:
+  - jd_shopCollectGiftId
+- jd_lzkj_wxKnowledgeActivity.js:
+  - jd_lzkj_wxKnowledgeActivity_activityId
+  - jd_lzkj_wxKnowledgeActivity_num
+  - jd_lzkj_wxKnowledgeActivity_openCard
+- jd_luck_draw.js:
+  - LUCK_DRAW_URL
+  - LUCK_DRAW_OPENCARD
+  - LUCK_DRAW_NOTIFY
+  - LUCK_DRAW_NUM
