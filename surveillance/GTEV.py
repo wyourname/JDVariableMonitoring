@@ -59,6 +59,10 @@ async def read_file_env(folder, filename, open_path):
 async def add_data(repo, filename, env):
     with open(envpath, mode='r', encoding='utf-8') as f:
         data = yaml.load(f.read(), Loader=yaml.Loader)
+        if data is None:
+            data = {repo: []}
+            data[repo].append({filename: env})
+            await update_data(data)
         if repo not in data:
             data[repo] = []
             data[repo].append({filename: env})
