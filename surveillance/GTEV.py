@@ -10,6 +10,7 @@ import re
 import aiofiles as aiofiles
 import yaml
 import asy
+import pathlib
 
 envpath = asy.read_config('env_path')
 
@@ -37,7 +38,7 @@ async def cope_filepath(repo_path):
             print("文件已存在")
         else:
             print(f"{envpath}文件不存在，创建")
-            await create_file()
+            pathlib.Path("varname.yaml").touch(exist_ok=True)
         for filename in filenames:
             if filename.endswith('.py') or filename.endswith('.ts') or filename.endswith('.js'):
                 await asyncio.create_task(read_file_env(path_name, filename, f"{repo_path}/{filename}"))
@@ -52,14 +53,6 @@ async def read_file_env(folder, filename, open_path):
         res = part_text.findall(contents)
         if res is not None and len(res) > 0:
             await add_data(folder, filename, res)
-
-
-async def create_file():
-    # 创建varname.yaml文件
-    data = {"interpretation": "这里是你的京东脚本库变量存放地方"}
-    async with aiofiles.open(envpath, mode='w', encoding='utf-8') as f:
-        await f.write(yaml.dump(data, default_flow_style=False))
-        print(f"{envpath}文件创建成功")
 
 
 # 此处用异步报错，未解决

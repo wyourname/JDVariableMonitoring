@@ -39,9 +39,7 @@ async def read_varname(env_name):
         for key in data.keys():
             for i in data[key]:
                 for key1, value1 in i.items():
-                    # print(key, value)
                     if env_name in value1:
-                        print(key, key1)
                         return key1
 
 
