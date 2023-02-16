@@ -3,6 +3,7 @@ Base modules
 cron: 1 1 1 1 1
 new Env('tg基础模块')
 """
+import asyncio
 
 import yaml
 
@@ -35,10 +36,14 @@ async def read_varname(env_name):
     envpath = read_config("env_path")
     with open(envpath, encoding="utf-8") as f:
         data = yaml.load(f.read(), Loader=yaml.FullLoader)
-        for i in data['shufflewzc_faker3_main']:
-            for key, value in i.items():
-                # print(key, value)
-                if env_name in value:
-                    return key
+        for key in data.keys():
+            for i in data[key]:
+                for key1, value1 in i.items():
+                    # print(key, value)
+                    if env_name in value1:
+                        print(key, key1)
+                        return key1
 
 
+# if __name__ == '__main__':
+#     asyncio.run(read_varname("jd_completeInfoActivity_activityUrl"))
