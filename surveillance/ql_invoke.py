@@ -133,18 +133,19 @@ class Invoke:
             if result[0] == script_name:
                 return task
 
-    async def task_status(self, task_id):
+    async def task_status(self, task_id, value_list, variables):
         header = await self.basics()
         status_url = self.url + f"/open/crons/{task_id}"
         result = await self.requests_method('get', url=status_url, header=header)
         if result['data']['status'] == 1:
             # print(result)
-            await self.run_task(result['data']['id'])
-            return result
+            if await self.save_config(value_list, variables):
+                await self.run_task(result['data']['id'])
+                return result
         else:  # 如果状态不为1则等待任务执行完成返回false
             # print(f"{result['data']['name']} 任务运行中,请等待！")
             await asyncio.sleep(3)
-            await self.task_status(task_id)
+            await self.task_status(task_id, value_list, variables)
 
     async def run_task(self, task_id):
         header = await self.basics()
